@@ -19,7 +19,7 @@ Extract .NET metadata from il2cpp binaries. (types, methods, fields, etc.)
 	5. In mode selection Select 3 (recommended) wait until process finish.
 	6. Now in DummyDll folder you will find some .dll files these contain .NET metadata extracted from the binary, Open `Assembly-CSharp.dll` in any .NET decompilers  (ILSPy, DnsPy, JetBrains dotPeek (recommended) ).
 - ### To extract method name In IDA
-	1. Follow above Step 1 and 2.
+	1. Follow above Step 1 to 5.
 	2. Open `libil2cpp.so` in Ida (Note :- Use IDA Pro ) and wait until Ida load it completely.
 	3. Load `script.py`   in Ida via `File -> Script file`, and wait for script to execute.
 	4. Now you will see functions name in Ida Function Window.
