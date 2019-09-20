@@ -9,13 +9,13 @@ Extract .NET metadata from il2cpp binaries. (types, methods, fields, etc.)
 - `script.py` :- Requires IDA (I use IDA 7.0 Pro ) and IDAPython. 
 - `dump.cs` :- C# pseudocode. Can be viewed in text editors (syntax highlighting recommended)
 
-## Usage
+# Usage
 
-- ### To extract Dll's
+- ### To extract Dlls
 	1. `git clone https://github.com/Shubzz-02/Il2CppDumper.git`
 	2. Copy your `libil2cpp.so` and `global-metadata.dat` to Il2CppDumper/ folder.
 	3. Run `Il2CppDumper.exe` choose  `libil2cpp.so` and `global-metadata.dat`.
-	4. To find unity version open `/assets/bin/Data/Resources/unity_builtin_extra` in any hex editor ( try [hexed](https://hexed.it/?hl=en))  and look at address `0x00000014`  (see screenshots attached below) you will find something like `2018.3.14f` this is the unity version you need, type this in terminal and press enter.
+	4. To find unity version open `/assets/bin/Data/Resources/unity_builtin_extra` in any hex editor ( try [hexed](https://hexed.it/?hl=en))  and look at address `0x00000014`  (see [screenshots](https://github.com/Shubzz-02/Il2CppDumper#screenshots) attached below) you will find something like `2018.3.14f` this is the unity version you need, type this in terminal and press enter.
 	5. In mode selection Select 3 (recommended) wait until process finish.
 	6. Now in DummyDll folder you will find some .dll files these contain .NET metadata extracted from the binary, Open `Assembly-CSharp.dll` in any .NET decompilers  (ILSPy, DnsPy, JetBrains dotPeek (recommended) ).
 - ### To extract method name In IDA
@@ -25,5 +25,6 @@ Extract .NET metadata from il2cpp binaries. (types, methods, fields, etc.)
 	4. Now you will see functions name in Ida Function Window.
 	5. Done! happy Reversing
 
+
 # ScreenShots
-![Hex](ScreenShots/img1.png)  ![IDA](ScreenShots/img2.png)
+![Hex](ScreenShots/img1.png )  ![IDA](ScreenShots/img2.png )
