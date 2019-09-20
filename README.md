@@ -26,4 +26,4 @@ Extract .NET metadata from il2cpp binaries. (types, methods, fields, etc.)
 	5. Done! happy Reversing
 
 # ScreenShots
-![Hex](ScreenShots/img1.png =140x125)  ![IDA](ScreenShots/img2.png =140x125)
+![Hex](ScreenShots/img1.png)  ![IDA](ScreenShots/img2.png)
