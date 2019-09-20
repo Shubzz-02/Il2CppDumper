@@ -11,7 +11,7 @@ Extract .NET metadata from il2cpp binaries. (types, methods, fields, etc.)
 
 ## Usage
 
-- ### To extract Dlls
+- ### To extract Dll's
 	1. `git clone https://github.com/Shubzz-02/Il2CppDumper.git`
 	2. Copy your `libil2cpp.so` and `global-metadata.dat` to Il2CppDumper/ folder.
 	3. Run `Il2CppDumper.exe` choose  `libil2cpp.so` and `global-metadata.dat`.
